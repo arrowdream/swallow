@@ -1,0 +1,42 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* box-prob */
+	.main-box-prob {
+		overflow: hidden;
+	}
+	.main-box-prob .prob-con {
+		margin-right: -15px;
+	}
+	.main-box-prob ul li {
+		float: left;
+		width: 25%;
+		margin-bottom: 30px;
+		padding-right: 15px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+		/* con-pack */
+	.main-box-prob .con-pack dt {
+		height: 160px;
+	}
+	.main-box-prob .con-pack dt img {
+		max-height: 100%;
+		margin: 0 auto;
+	}
+	.main-box-prob .con-pack dd {
+		padding: 20px 20px 0;
+	}
+	.main-box-prob .con-pack dd strong {
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
+		color: #333;
+		border-top: 1px solid #D8D8D8;
+		border-bottom: 1px solid #D8D8D8;
+	}

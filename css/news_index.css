@@ -1,0 +1,66 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* table */
+	.tabs-table {
+		width: 100%;
+		border-collapse: collapse;
+		table-layout: fixed;
+	}
+	.tabs-table,
+	.tabs-table th,
+	.tabs-table td {
+		border-bottom: 1px solid #ddd;
+		font-weight: normal;
+	}
+	.tabs-table td {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		word-break: break-all;
+		word-wrap: break-word;
+	}
+	/* date */
+	.tabs-table td.date {
+		width: 150px;
+	}
+	.tabs-table td.date .date_pack {
+		border-right: 1px solid #ddd;
+	}
+	.tabs-table td.date span {
+		display: block;
+		color: #999;
+		text-align: center;
+	}
+	.tabs-table td.date span.day {
+		font-size: 72px;
+		line-height: 72px;
+	}
+	.tabs-table td.date span.year {
+		font-size: 20px;
+	}
+	/* news */
+	.tabs-table td.news .news_pack {
+		padding-left: 25px;
+	}
+	.tabs-table td.news .news_pack dt {
+		padding-bottom: 15px;
+	}
+	.tabs-table td.news .news_pack strong {
+		display: block;
+		height: 28px;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 28px;
+		color: #999;
+		overflow: hidden;
+	}
+	.tabs-table td.news .news_pack p {
+		height: 40px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #999;
+		overflow: hidden;
+	}
+	.tabs-table td.news .news_pack strong:focus,
+	.tabs-table td.news .news_pack strong:hover {
+		color: #3e82f7;
+	}

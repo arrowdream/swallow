@@ -1,0 +1,81 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* content-title */
+	.content-title {
+		padding-bottom: 30px;
+	}
+	.content-title .title-pack {
+		padding-left: 60px;
+		padding-right: 60px;
+		text-align: center;
+	}
+	.content-title .title-pack strong {
+		font-size: 20px;
+		font-weight: normal;
+		color: #333;
+	}
+
+/* title-content */
+	.content-title .title-content {
+		padding-top: 15px;
+		padding-bottom: 10px;
+		text-align: center;
+		border-bottom: 1px dashed #D1D1D1;
+	}
+	.content-title .title-content li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.content-title .title-content li:last-child {
+		margin-right: 0;
+	}
+	.content-title .title-content li span {
+		font-size: 12px;
+		color: #999;
+	}
+
+/* box-prob book */
+	.box-prob-book {
+		position: relative;
+		margin-top: 30px;
+		overflow: hidden;
+	}
+	.box-prob-book .boxprob {
+		margin-right: -90px;
+	}
+	.box-prob-book .boxprob > li.li {
+		float: left;
+		width: 50%;
+		margin-bottom: 5px;
+		padding-right: 90px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+		overflow: hidden;
+	}
+		/* prob-con */
+	.box-prob-book .prob-con {
+		height: 20px;
+		overflow: hidden;
+	}
+	.box-prob-book li.middle {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -30px;
+	}
+	.box-prob-book .boxprob > li.right {
+		text-align: right;
+	}
+	.box-prob-book .book_link {
+		font-size: 13px;
+		line-height: 20px;
+		color: #999;
+		overflow: hidden;
+	}
+	.box-prob-book .book_link:focus,
+	.box-prob-book .book_link:hover {
+		color: #e40000;
+	}

@@ -1,0 +1,164 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+	/* about-title */
+	.about-title {
+		text-align: center;
+	}
+	.about-title strong {
+		font-size: 32px;
+		font-weight: normal;
+		color: #4d4d4d;
+	}
+	.about-title span {
+		font-size: 24px;
+		font-weight: normal;
+		color: #4d4d4d;
+	}
+	/* edit-editor */
+	.edit-editor {
+		min-height: 60px;
+	}
+	.edit-editor img {
+		/*display: block;*/
+		max-width: 100%;
+		height: auto;
+	}
+
+
+
+/* main-nav */
+	.main-nav {
+		padding-top: 15px;
+		padding-bottom: 9px;
+		text-align: center;
+		background: #F5F5F5;
+		border-bottom: 1px solid #E5E5E5;
+	}
+	.main-nav ul {
+		display: inline-block;
+	}
+	.main-nav ul li {
+		float: left;
+	}
+	.main-nav ul li .navlink {
+		display: block;
+		width: 120px;
+		height: 30px;
+		font-size: 16px;
+		line-height: 30px;
+		text-align: center;
+		color: #333;
+		border-radius: 6px;
+	}
+	.main-nav ul li.line {
+		margin-left: 15px;
+		margin-right: 15px;
+		line-height: 30px;
+	}
+	.main-nav ul li.active .navlink {
+		color: #fff;
+		background: #3E82F7;
+	}
+	.main-nav ul li .navlink:focus,
+	.main-nav ul li .navlink:hover {
+		color: #fff;
+		background: #3E82F7;
+	}
+
+/* page1 */
+	.page1 {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+	.page1 .edit-editor {
+		padding-top: 30px;
+		padding-bottom: 90px;
+	}
+	.page1 .introduce-box {
+		text-align: center;
+	}
+	.page1 .introduce-box > li {
+		display: inline-block;
+		width: 175px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.page1 .introduce-box dl strong {
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: 16px;
+		font-weight: normal;
+		color: #333;
+	}
+	.page1 .introduce-box dl p {
+		font-size: 14px;
+		color: #666;
+	}
+
+/* page2 */
+	.page2 {
+		position: relative;
+	}
+	.academe-box {
+		position: absolute;
+		top: 25px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.academe-pack {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.academe-pack strong {
+		font-size: 20px;
+		font-weight: normal;
+		color: #666;
+	}
+	.academe-pack p {
+		margin-top: 5px;
+		font-size: 14px;
+		color: #666;
+	}
+
+/* page3 */
+	.page3 {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+	.culture-box {
+		padding-top: 60px;
+	}
+	.culture-box > li {
+		width: 45%;
+	}
+	.culture-pack {
+		padding-top: 20px;
+	}
+	.culture-pack dt strong {
+		font-size: 26px;
+		font-weight: normal;
+		color: #333;
+	}
+	.culture-pack dt p {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 16px;
+		color: #333;
+	}
+	.culture-pack dt span {
+		display: block;
+		height: 1px;
+		width: 80px;
+		background: #3E82F7;
+	}
+	.culture-pack dd {
+		padding-top: 40px;
+	}
+	.culture-pack dd p {
+		font-size: 14px;
+		line-height: 30px;
+		text-indent: 2em;
+		color: #666;
+	}

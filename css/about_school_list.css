@@ -1,0 +1,123 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* main-summary */
+	.main-summary {
+		margin-bottom: 40px;
+	}
+	/* one */
+	.main-summary dl.one {
+		height: 300px;
+		width: 270px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		border: 1px solid #EBEBEB;
+	}
+	.main-summary dl.one dt {
+		padding-top: 25px;
+	}
+	.main-summary dl.one img {
+		margin: 0 auto;
+		max-height: 210px;
+		max-width: 210px;
+	}
+	.main-summary dl.one dd strong {
+		display: block;
+		max-height: 56px;
+		font-size: 20px;
+		color: #333;
+		overflow: hidden;
+	}
+	/* two */
+	.main-summary dl.two dt strong {
+		font-size: 30px;
+		font-weight: normal;
+		color: #000;
+	}
+	.main-summary dl.two dd {
+		padding-top: 15px;
+		font-size: 14px;
+		line-height: 25px;
+		color: #666;
+		text-indent: 2em;
+	}
+
+
+/* main-news */
+	.main-news {
+		padding-bottom: 15px;
+	}
+	.main-news strong {
+		float: left;
+		font-size: 24px;
+	}
+	.main-news strong.one {
+		font-weight: normal;
+		color: #333;
+	}
+	.main-news strong.two {
+		color: #3e82f7;
+	}
+
+
+/* main-table */
+	.main-table {
+		width: 100%;
+		border-collapse: collapse;
+		table-layout: fixed;
+	}
+	.main-table,
+	.main-table th,
+	.main-table td {
+		font-weight: normal;
+	}
+	.main-table td {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #E5E5E5;
+		word-break: break-all;
+		word-wrap:break-word;
+	}
+	.main-table tr:first-child td {
+		border-top: 1px solid #E5E5E5;
+	}
+	/* one */
+	.main-table td.one {
+		width: 145px;
+	}
+	.main-table td.one .date {
+		border-right: 1px solid #E5E5E5;
+		text-align: center;
+	}
+	.main-table td.one .date span {
+		display: block;
+	}
+	.main-table td.one .date span.one {
+		font-size: 64px;
+		font-weight: normal;
+		line-height: 64px;
+		color: #999;
+	}
+	.main-table td.one .date span.two {
+		font-size: 20px;
+		font-weight: normal;
+		color: #999;
+	}
+	/* two */
+	.main-table td.two dl {
+		padding-left: 20px;
+	}
+	.main-table td.two dl dt {
+		height: 28px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		color: #999;
+		overflow: hidden;
+	}
+	.main-table td.two dl dd {
+		height: 38px;
+		font-size: 14px;
+		color: #999;
+		overflow: hidden;
+	}
+

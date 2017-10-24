@@ -1,0 +1,118 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+	/* pagepack */
+	.pagepack {
+		padding-top: 40px;
+		width: 100%;
+		text-align: center;
+	}
+	.page {
+		display: inline-block;
+		text-align: center;
+	}
+	.page span {
+		float: left;
+		height: 30px;
+		width: 50px;
+		margin-right: 5px;
+		font-size: 15px;
+		line-height: 30px;
+		color: #fff;
+		background: #CF2C1D;
+		border: 1px solid #CF2C1D;
+		overflow: hidden;
+	}
+	.page .num {
+		float: left;
+		height: 30px;
+		width: 50px;
+		margin-right: 5px;
+		font-size: 15px;
+		line-height: 30px;
+		color: #a4a4a4;
+		background: #fff;
+		border: 1px solid #D7DADF;
+		overflow: hidden;
+	}
+	.page .prev,
+	.page .next {
+		float: left;
+		height: 30px;
+		width: 50px;
+		margin-right: 5px;
+		font-size: 15px;
+		line-height: 30px;
+		color: #a4a4a4;
+		background: #fff;
+		border: 1px solid #D7DADF;
+		overflow: hidden;
+	}
+
+/* main-view */
+	.main-view {
+		padding-top: 20px;
+		padding-bottom: 100px;
+		min-height: 360px;
+	}
+
+/* main-menu */
+	.main-menu {
+		float: left;
+		width: 280px;
+	}
+	.menu-box {
+		padding-right: 30px;
+	}
+	.menu-box li {
+		position: relative;
+		margin-bottom: 5px;
+	}
+	.menu-box .menulink {
+		display: block;
+		padding: 16px 0 16px 35px;
+		font-size: 20px;
+		color: #4d4d4d;
+		border-radius: 0 30px 30px 0;
+	}
+	.menu-box li img {
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		margin-top: -8px;
+	}
+	.menu-box li.active .menulink {
+		color: #fff;
+		background: #3E82F7;
+	}
+	.menu-box li:focus .menulink,
+	.menu-box li:hover .menulink {
+		color: #fff;
+		background: #3E82F7;
+	}
+
+/* main-content */
+	.main-content {
+		float: left;
+		width: 1000px;
+	}
+	/*	main-title */
+	.main-title {
+		margin-bottom: 30px;
+		padding-top: 11px;
+		padding-bottom: 11px;
+		border-bottom: 1px solid #E5E5E5;
+	}
+	.main-title strong {
+		font-size: 24px;
+		font-weight: normal;
+		color: #333;
+	}
+	/* edit-editor */
+	.edit-editor {
+		min-height: 60px;
+	}
+	.edit-editor img {
+		/*display: block;*/
+		max-width: 100%;
+		height: auto;
+	}

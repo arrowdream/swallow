@@ -1,0 +1,85 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* main-summary */
+	.main-summary p {
+		margin-bottom: 40px;
+		font-size: 14px;
+		line-height: 24px;
+		color: #666;
+		text-indent: 2em;
+	}
+
+/* main-course *
+	/* course-box */
+	.course-box {
+		position: relative;
+	}
+	.course-box .line {
+		position: absolute;
+		top: 0;
+		left: 120px;
+		bottom: 0;
+		height: 100%;
+		width: 4px;
+		background: #F3F3F3;
+	}
+	.course-box li.on {
+		padding-left: 160px;
+	}
+		/* course_pack */
+	.course-pack {
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.course-pack dt {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+	}
+	.course-pack dt i {
+		position: absolute;
+		top: 50%;
+		left: -48px;
+		display: block;
+		margin-top: -8px;
+		height: 12px;
+		width: 12px;
+		background: transparent;
+		border: 4px solid #F3F3F3;
+		border-radius: 50%;
+	}
+	.course-pack dt span.one {
+		position: absolute;
+		top: 50%;
+		left: -160px;
+		margin-top: -45px;
+		display: block;
+		height: 90px;
+		width: 90px;
+		font-size: 28px;
+		line-height: 90px;
+		text-align: center;
+		color: #fff;
+		background: #3E82F7;
+		border-radius: 50%;
+	}
+	.course-pack dt span.two {
+		position: absolute;
+		top: 50%;
+		left: -36px;
+		margin-top: -18px;
+		border-top: 18px solid transparent;
+		border-right: 18px solid #F3F3F3;
+		border-bottom: 18px solid transparent;
+		border-left: 18px solid transparent;
+	}
+	.course-pack dd {
+		padding: 30px 20px;
+		background: #F3F3F3;
+	}
+	.course-pack dd p {
+		font-size: 14px;
+		line-height: 24px;
+		color: #666;
+	}

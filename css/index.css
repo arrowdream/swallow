@@ -1,0 +1,320 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+	.page-title {
+		text-align: center;
+	}
+	.page-title dt {
+		position: relative;
+		display: inline-block;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.page-title dt strong {
+		font-size: 42px;
+		font-weight: normal;
+		color: #333;
+	}
+	.page-title dt i.line {
+		position: absolute;
+		top: 50%;
+		height: 1px;
+		width: 60px;
+		background: #D8D8D8;
+	}
+	.page-title dt i.left {
+		left: 0;
+	}
+	.page-title dt i.right {
+		right: 0;
+	}
+	.page-title dd {
+		padding: 15px 200px 45px;
+	}
+	.page-title dd p {
+		font-size: 14px;
+		color: #666;
+	}
+
+
+/* page1 */
+	.page1 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #F5F5F5;
+	}
+		/* box-prob */
+		.page1 .box-prob {
+			padding: 15px;
+			overflow: hidden;
+		}
+		.page1 .box-prob .prob-con {
+			margin-right: -15px;
+		}
+		.page1 .box-prob ul li {
+			float: left;
+			width: 25%;
+			padding-right: 15px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+			/* con-pack */
+		.page1 .box-prob .con-pack {
+			position: relative;
+			height: 150px;
+			padding: 20px 20px 0;
+		}
+		.page1 li.one .con-pack {
+			background: #29AAE3;
+		}
+		.page1 li.two .con-pack {
+			background: #23B574;
+		}
+		.page1 li.three .con-pack {
+			background: #01A89E;
+		}
+		.page1 li.four .con-pack {
+			background: #FBB03B;
+		}
+		.page1 .box-prob .con-pack:focus,
+		.page1 .box-prob .con-pack:hover {
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+			   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+				 -o-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+					box-shadow: 0 0 10px rgba(0,0,0,0.25);
+		}
+		.page1 .con-pack strong {
+			font-size: 30px;
+			color: #fff;
+		}
+		.page1 .con-pack p {
+			margin-top: 5px;
+			margin-bottom: 10px;
+			font-size: 12px;
+			color: #fff;
+		}
+		.page1 .con-pack a.link {
+			display: inline-block;
+			padding: 2px 5px;
+			font-size: 10px;
+			color: #fbb03b;
+			background: #fff;
+		}
+		.page1 .con-pack a.link:focus,
+		.page1 .con-pack a.link:hover {
+			color: #fff;
+			background: #3e82f7;
+		}
+		.page1 .con-pack img.img {
+			position: absolute;
+			right: 20px;
+			bottom: 10px;
+		}
+		.page1 li.four .con-pack img.img {
+			bottom: 0;
+		}
+
+
+/* page2 */
+	.page2 {
+		padding-top: 75px;
+		padding-bottom: 80px;
+	}
+		/* box-prob */
+		.page2 .box-prob {
+			overflow: hidden;
+		}
+		.page2 .box-prob .prob-con {
+			margin-right: -30px;
+		}
+		.page2 .box-prob ul li {
+			float: left;
+			width: 33.3333%;
+			padding-right: 30px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+
+
+/* page3 */
+	.page3 {
+		padding-top: 75px;
+		padding-bottom: 70px;
+		background: #F5F5F5;
+	}
+		/* box-prob */
+		.page3 .box-prob {
+			overflow: hidden;
+		}
+		.page3 .box-prob .prob-con {
+			margin-right: -12px;
+		}
+		.page3 .box-prob ul li {
+			float: left;
+			width: 14.2857%;
+			margin-bottom: 10px;
+			padding-right: 10px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+			/* con-pack */
+		.page3 .box-prob .con-pack {
+			background: #fff;
+			border: 1px solid transparent;
+		}
+		.page3 .box-prob .con-pack:focus,
+		.page3 .box-prob .con-pack:hover {
+			border: 1px solid #3e82f7;
+		}
+
+
+/* page4 */
+	.page4 {
+		padding-top: 75px;
+		padding-bottom: 80px;
+	}
+	/* tab-wrap */
+	.tab-menu {
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.tab-menu li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.tab-menu li:last-child {
+		margin-right: 0;
+	}
+	.tab-menu .tab-menu-link {
+		display: inline-block;
+		height: 26px;
+		width: 140px;
+		font-size: 14px;
+		line-height: 26px;
+		color: #333;
+		background: #E5E5E5;
+		border-radius: 13px;
+	}
+	.tab-menu li.active .tab-menu-link {
+		color: #fff;
+		background: #E60012;
+	}
+	.tab-content > li {
+		display: none;
+	}
+	.tab-content > li.active {
+		display: block;
+	}
+		/* box-prob */
+		.page4 .box-prob {
+			overflow: hidden;
+		}
+		.page4 .box-prob .prob-con {
+			margin-right: -20px;
+		}
+		.page4 .box-prob ul li {
+			float: left;
+			width: 33.3333%;
+			padding-right: 20px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+			/* con-pack */
+		.page4 .con-pack {
+			border: 1px solid #E8E8E8;
+		}
+		.page4 .con-pack dt {
+			height: 269px;
+			overflow: hidden;
+		}
+		.page4 .con-pack dt img {
+			width: 100%;
+		}
+		.page4 .con-pack dd {
+			padding-left: 15px;
+			padding-right: 15px;
+			background: #fff;
+		}
+		.page4 .con-pack .title {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-bottom: 1px solid #E8E8E8;
+		}
+		.page4 .con-pack .title strong {
+			display: block;
+			height: 25px;
+			font-size: 18px;
+			font-weight: normal;
+			color: #666;
+			overflow: hidden;
+		}
+		.page4 .con-pack .title strong:focus,
+		.page4 .con-pack .title strong:hover {
+			color: #ff0000;
+		}
+		.page4 .con-pack dd.span {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.page4 .con-pack dd span {
+			font-size: 14px;
+			color: #999;
+		}
+		.page4 .con-pack dd span.img {
+			float: right;
+			display: inline-block;
+			padding-left: 20px;
+			font-size: 12px;
+			background: url('../image/index/news_time.png') no-repeat;
+		}
+
+
+/* page5 */
+	.page5 {
+		padding-top: 75px;
+		padding-bottom: 100px;
+		background: #F5F5F5;
+	}
+		/* box-prob */
+		.page5 .box-prob {
+			overflow: hidden;
+		}
+		.page5 .box-prob .prob-con {
+			margin-right: -25px;
+		}
+		.page5 .box-prob ul li {
+			float: left;
+			width: 20%;
+			padding-right: 25px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+			/* con-pack */
+		.page5 .con-pack dd {
+			padding: 20px 20px 0;
+		}
+		.page5 .con-pack dd strong {
+			display: block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 14px;
+			font-weight: normal;
+			text-align: center;
+			color: #333;
+			border-top: 1px solid #D8D8D8;
+			border-bottom: 1px solid #D8D8D8;
+		}

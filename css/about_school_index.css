@@ -1,0 +1,84 @@
+/* ==========  Non-Mobile First Method  ========== */
+
+/* main-filter */
+	.main-filter {
+		margin-bottom: 30px;
+	}
+	.main-filter > li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.main-filter > li span {
+		font-size: 14px;
+		color: #333;
+	}
+	.main-filter .select {
+		min-width: 100px;
+		padding-left: 5px;
+		font-size: 13px;
+		color: #666;
+	}
+
+/* box-prob */
+	.main-box-prob {
+		padding: 15px;
+		overflow: hidden;
+	}
+	.main-box-prob .prob-con {
+		margin-right: -20px;
+	}
+	.main-box-prob ul li {
+		float: left;
+		width: 33.3333%;
+		padding-right: 20px;
+		margin-bottom: 18px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+		/* con-pack */
+	.main-box-prob .con-pack {
+		border: 1px solid #E6E6E6;
+	}
+	.main-box-prob .con-pack:focus,
+	.main-box-prob .con-pack:hover {
+		border: 1px solid #B5CEFB;
+		-webkit-box-shadow: 0 0 8px rgba(0,0,0,0.25);
+		   -moz-box-shadow: 0 0 8px rgba(0,0,0,0.25);
+			 -o-box-shadow: 0 0 8px rgba(0,0,0,0.25);
+				box-shadow: 0 0 8px rgba(0,0,0,0.25);
+	}
+	.main-box-prob .con-pack dt {
+		height: 165px;
+		text-align: center;
+		line-height: 165px;
+		background: url(../image/about/logo_bg.png) no-repeat;
+	}
+	.main-box-prob .con-pack dt img {
+		display: inline-block;
+		vertical-align: middle;
+		max-height: 165px;
+	}
+	.main-box-prob .con-pack dd {
+		padding: 10px;
+	}
+	.main-box-prob .con-pack dd strong {
+		display: block;
+		height: 18px;
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 18px;
+		color: #999;
+		overflow: hidden;
+	}
+	.main-box-prob .con-pack dd a {
+		display: block;
+		height: 20px;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 20px;
+		color: #333;
+		overflow: hidden;
+	}
